@@ -4,5 +4,4 @@ matplotlib
 seaborn
 scikit-learn
 openpyxl
-BytesIO
 xlwt

@@ -142,7 +142,7 @@ def main():
         def konversi_ke_nilai(jenis_kelamin):
             if jenis_kelamin == "Laki-laki":
                 return 1
-            elif jenis_kelamin == "Wanita":
+            elif jenis_kelamin == "Perempuan":
                 return 2
             else:
                 return None

@@ -137,7 +137,7 @@ def main():
     else:
         # Tambahkan input manual jika checkbox tidak dicentang
         # Fungsi untuk mengkonversi jenis kelamin menjadi nilai 1 (laki-laki) atau 2 (wanita)
-        JENIS_KELAMIN = st.selectbox('Pilih Jenis Kelamin', ["Laki-laki", "Wanita"])
+        JENIS_KELAMIN = st.selectbox('Pilih Jenis Kelamin', ["Laki-laki", "Perempuan"])
 
         def konversi_ke_nilai(jenis_kelamin):
             if jenis_kelamin == "Laki-laki":
